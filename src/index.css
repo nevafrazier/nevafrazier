@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+html { scroll-behavior: smooth; }
+body { margin: 0; background: #060a07; }
+* { box-sizing: border-box; }
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0; }
+}
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 20px rgba(52, 211, 153, 0.3); }
+  50%       { box-shadow: 0 0 40px rgba(52, 211, 153, 0.5); }
+}
+
+.fade-up  { animation: fadeUp 0.7s ease both; }
+.delay-1  { animation-delay: 0.15s; }
+.delay-2  { animation-delay: 0.3s; }
+.delay-3  { animation-delay: 0.45s; }
+.delay-4  { animation-delay: 0.6s; }
+.delay-5  { animation-delay: 0.75s; }
+.cursor   { animation: blink 1s step-end infinite; }
+.glow     { animation: pulse-glow 3s ease-in-out infinite; }
