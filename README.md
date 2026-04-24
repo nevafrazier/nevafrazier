@@ -1,16 +1,61 @@
-# React + Vite
+# NevaFrazier — Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live site: [nevafrazier.vercel.app](https://nevafrazier.vercel.app)
 
-Currently, two official plugins are available:
+Personal portfolio and resume site built to showcase my work in data analytics, AI automation, and cybersecurity. Designed to be sent to recruiters across tech, business, and marketing roles.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## About
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Built from scratch using React, Vite, and Tailwind CSS. No templates. Fully custom design with a dark mode aesthetic and emerald green accent theme.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Sections
+
+- **Hero** — Introduction with animated typewriter, headshot, and resume download
+- **About** — Background, current role, and skills summary
+- **Skills** — AI & automation, programming, cybersecurity, tools, and business/marketing
+- **Experience** — Willow Health Services, Starbucks, Ketchie Creek Bakery
+- **Projects** — TechSentinel AI, Shipping Status Agent
+- **Certifications** — Google Cybersecurity, Google AI Essentials, Mixpanel, HubSpot, Excel Advanced
+- **Education** — Appalachian State University, BS Business Administration (CIS – Cybersecurity)
+- **Contact** — Email, LinkedIn, GitHub
+
+---
+
+## Tech Stack
+
+| Tool | Purpose |
+|------|---------|
+| React | UI framework |
+| Vite | Build tool |
+| Tailwind CSS | Styling |
+| Vercel | Hosting & deployment |
+
+---
+
+## Running Locally
+
+```bash
+npm install
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173)
+
+---
+
+## Deployment
+
+Deployed on Vercel. Any push to the `main` branch automatically updates the live site.
+
+---
+
+## Contact
+
+**Neva Frazier**  
+nevacfrazier03@gmail.com  
+[linkedin.com/in/nevafrazier](https://linkedin.com/in/nevafrazier)  
+[github.com/nevafrazier](https://github.com/nevafrazier)
