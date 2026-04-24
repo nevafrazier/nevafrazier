@@ -1,4 +1,4 @@
-# NevaFrazier — Personal Portfolio
+# NevaFrazier — Personal Website
 
 Live site: [nevafrazier.vercel.app](https://nevafrazier.vercel.app)
 
