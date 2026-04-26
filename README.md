@@ -1,4 +1,4 @@
-# NevaFrazier Portfolio
+# NevaFrazier Personal Website
 
 Personal portfolio site built with React, Vite, and Tailwind CSS.
 
