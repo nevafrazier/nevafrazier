@@ -46,9 +46,9 @@ export default function Contact() {
           <div className="flex justify-center gap-2 text-slate-700 text-sm">
             <span>(336)-251-7817</span>
             <span>·</span>
-            <span>Boone / Winston-Salem, NC</span>
+            <span>Winston-Salem, NC · Open to Relocation</span>
             <span>·</span>
-            <span>Available May 2026</span>
+            <span>Available Immediately</span>
           </div>
         </div>
       </div>

@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react'
 const titles = [
   'Data Analytics Intern',
   'AI & Automation Builder',
-  'CIS + Cybersecurity Student',
+  'CIS + Cybersecurity Graduate',
   'Marketing & Operations Analyst',
 ]
 
@@ -59,7 +59,7 @@ export default function Hero() {
           </div>
 
           <p className="fade-up delay-3 text-slate-400 text-base md:text-lg leading-relaxed mb-8 max-w-lg">
-            CIS + Cybersecurity student at App State graduating May 2026. I build AI tools,
+            CIS + Cybersecurity graduate from App State. I build AI tools,
             automate workflows, and turn data into decisions — with enough business and marketing
             background to communicate across any team.
           </p>

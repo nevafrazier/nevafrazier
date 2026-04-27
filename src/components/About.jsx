@@ -9,8 +9,8 @@ export default function About() {
             <span style={{ color: '#34d399' }}>cybersecurity mindset</span>
           </h2>
           <p className="text-slate-400 leading-relaxed mb-4">
-            I'm a Computer Information Systems and Cybersecurity student at Appalachian State University,
-            graduating May 2026. I specialize in turning messy data into clean insights — and building
+            I'm a Computer Information Systems and Cybersecurity graduate from Appalachian State University.
+            I specialize in turning messy data into clean insights — and building
             AI tools that automate the work in between.
           </p>
           <p className="text-slate-400 leading-relaxed mb-6">
