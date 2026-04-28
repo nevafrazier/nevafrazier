@@ -10,6 +10,8 @@ const courses = [
   'Global IS Ethics & Privacy',
   'Principles of Marketing',
   'Production & Operations Management',
+  'Business Capstone Experience',
+  'Strategic Management',
 ]
 
 export default function Education() {
