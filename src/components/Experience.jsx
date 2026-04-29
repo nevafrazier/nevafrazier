@@ -19,7 +19,7 @@ const jobs = [
   {
     company: 'Starbucks',
     role: 'Barista',
-    period: 'Dec 2022 – Apr 2026',
+    period: 'Dec 2022 – May 2026',
     type: 'Winston-Salem, NC',
     accent: '#10b981',
     badge: null,
