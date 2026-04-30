@@ -2,6 +2,7 @@ const projects = [
   {
     title: 'SignalScope',
     tagline: 'Market Intelligence Dashboard',
+    wip: true,
     description: 'Full-stack Bloomberg-style analytics platform. Search any company, game, or topic to see live VADER sentiment analysis, Reddit + news aggregation, Wikipedia context cards with awards/achievements, stock prices via Alpha Vantage, and city tech rankings across 25 US metros.',
     tags: ['React', 'FastAPI', 'Python', 'Tailwind', 'VADER NLP', 'Alpha Vantage API'],
     github: 'https://github.com/nevafrazier/signalscope',
@@ -54,7 +55,15 @@ export default function Projects() {
                 </div>
               </div>
 
-              <h3 className="text-white font-black text-xl mb-1">{p.title}</h3>
+              <div className="flex items-center gap-2 mb-1">
+                <h3 className="text-white font-black text-xl">{p.title}</h3>
+                {p.wip && (
+                  <span className="text-xs px-2 py-0.5 rounded-full font-semibold"
+                    style={{ background: '#78716c20', color: '#a8a29e', border: '1px solid #78716c40' }}>
+                    In Progress
+                  </span>
+                )}
+              </div>
               <p className="text-sm font-semibold mb-3" style={{ color: p.accent }}>{p.tagline}</p>
               <p className="text-slate-400 text-sm leading-relaxed flex-1 mb-5">{p.description}</p>
 
