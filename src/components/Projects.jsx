@@ -3,7 +3,7 @@ const projects = [
     title: 'SignalScope',
     tagline: 'Market Intelligence Dashboard',
     wip: true,
-    description: 'Full-stack Bloomberg-style analytics platform. Search any company, game, or topic to see live VADER sentiment analysis, Reddit + news aggregation, Wikipedia context cards with awards/achievements, stock prices via Alpha Vantage, and city tech rankings across 25 US metros.',
+    description: 'SignalScope is a full-stack market intelligence platform. Search any company, stock, or topic to get live sentiment analysis, Reddit + news aggregation, Wikipedia context, stock prices via Alpha Vantage, and tech city rankings across 25 US metros.',
     tags: ['React', 'FastAPI', 'Python', 'Tailwind', 'VADER NLP', 'Alpha Vantage API'],
     github: 'https://github.com/nevafrazier/signalscope',
     live: 'https://signalscope-six.vercel.app',
