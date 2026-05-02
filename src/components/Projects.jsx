@@ -6,7 +6,7 @@ const projects = [
     description: 'Viglore is a full-stack market intelligence platform. Search any company, stock, or topic to get live sentiment analysis, news aggregation, Wikipedia context, stock data via Alpha Vantage, trader sentiment via Stocktwits, and tech city rankings across 25 US metros.',
     tags: ['React', 'FastAPI', 'Python', 'Tailwind', 'VADER NLP', 'Alpha Vantage API'],
     github: 'https://github.com/nevafrazier/signalscope',
-    live: 'https://signalscope-six.vercel.app',
+    live: 'https://viglore.com',
     accent: '#34d399',
     icon: '📡',
   },
