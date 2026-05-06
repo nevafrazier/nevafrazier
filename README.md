@@ -62,6 +62,8 @@ Real-time dashboard that lets you research any company, stock, or topic using ag
 
 **Stack:** React · FastAPI · Python · Tailwind CSS · VADER NLP · NewsAPI · Finnhub API · Stocktwits API · Guardian API · Wikipedia API · Vercel · Railway
 
+**Security:** Strict CSP (`script-src 'self'`, no unsafe-inline) · CORS locked to production · Per-endpoint rate limiting · HSTS · Rated **A+ on Mozilla Observatory**
+
 > Live at [viglore.com](https://viglore.com) · [View repo](https://github.com/nevafrazier/viglore)
 
 ---
