@@ -74,6 +74,15 @@ Python automation tool that scrapes FedEx tracking pages and auto-fills a daily 
 
 ---
 
+## Security
+
+![Security Headers](https://img.shields.io/badge/Security%20Headers-A%20Rated-34d399?style=flat-square)
+
+- HTTP security headers via Vercel — CSP, X-Frame-Options, X-Content-Type-Options, Referrer-Policy, Permissions-Policy
+- `security.txt` per [RFC 9116](https://www.rfc-editor.org/rfc/rfc9116) at `/.well-known/security.txt`
+
+---
+
 ## Education
 
 **Appalachian State University** — B.S. Computer Information Systems, Concentration in Cybersecurity  
