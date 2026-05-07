@@ -2,8 +2,7 @@ const projects = [
   {
     title: 'Viglore',
     tagline: 'Market Intelligence Dashboard',
-    wip: true,
-    description: 'Viglore is a full-stack market intelligence platform. Search any company, stock, or topic to get live VADER NLP sentiment analysis, real-time news aggregation, Wikipedia context with structured stats and awards, real-time stock data via Finnhub, and trader sentiment via Stocktwits. The home page surfaces trending stories across Tech, Business, Science, and Health. The Cities page ranks 100 US tech hubs by jobs, salary, AI roles, cost of living, and startup activity. Hardened with a strict Content Security Policy, CORS lockdown, per-endpoint rate limiting, and input validation — rated A+ on Mozilla Observatory.',
+    description: 'Viglore is a full-stack market intelligence platform. Search any company, stock, or topic to get live VADER NLP sentiment scoring, real-time news aggregation, Wikipedia context, real-time stock data via Finnhub, and trader sentiment via Stocktwits. Features a trending searches feed backed by SQLite, 100-city tech hub rankings, and a full pytest test suite. Hardened with strict CSP, CORS lockdown, per-endpoint rate limiting, and input validation — rated A+ on Mozilla Observatory.',
     tags: ['React', 'FastAPI', 'Python', 'Tailwind', 'VADER NLP', 'Finnhub API', 'Stocktwits API', 'NewsAPI', 'Guardian API', 'Wikipedia API', 'CSP', 'Rate Limiting'],
     github: 'https://github.com/nevafrazier/viglore',
     live: 'https://viglore.com',
