@@ -9,7 +9,7 @@ const groups = [
     icon: '💻',
     title: 'Programming & Data',
     color: '#10b981',
-    skills: ['Python', 'SQL', 'MySQL', 'Excel (Advanced)', 'Google Sheets', 'Dashboard Building'],
+    skills: ['Python', 'JavaScript', 'React', 'SQL', 'MySQL', 'HTML/CSS', 'Excel (Advanced)', 'Google Sheets'],
   },
   {
     icon: '🔒',
@@ -21,7 +21,7 @@ const groups = [
     icon: '📊',
     title: 'Tools & Platforms',
     color: '#065f46',
-    skills: ['Mixpanel', 'Metabase', 'Airtable', 'Tableau', 'Google Cloud', 'Dropbox'],
+    skills: ['FastAPI', 'Vercel', 'Railway', 'Mixpanel', 'Metabase', 'Airtable', 'Tableau', 'Google Cloud'],
   },
 ]
 
