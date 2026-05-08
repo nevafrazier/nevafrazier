@@ -37,8 +37,8 @@ export default function Education() {
                 <div className="text-right shrink-0">
                   <div className="text-slate-400 text-sm font-medium">Boone, NC</div>
                   <div className="text-slate-600 text-xs mt-0.5">Graduated May 2026</div>
-                  <div className="mt-2 text-sm font-black" style={{ color: '#6ee7b7' }}>Major GPA 3.61</div>
-                  <div className="text-xs text-slate-500 mt-0.5">Overall GPA 3.31</div>
+                  <div className="mt-2 text-sm font-black" style={{ color: '#6ee7b7' }}>Major GPA 3.67</div>
+                  <div className="text-xs text-slate-500 mt-0.5">Overall GPA 3.36</div>
                 </div>
               </div>
             </div>
