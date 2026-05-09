@@ -12,6 +12,15 @@ const projects = [
     icon: '📡',
   },
   {
+    title: 'Market Sentiment Analysis',
+    tagline: 'SQL Analytics — Stocks, Sentiment & Cities',
+    description: 'SQL analytics project built around the same domain as Viglore. Tracks stock prices, VADER-style sentiment scores, and news coverage across 22 companies and 25 cities over 2,600+ rows of time series data. Answers 12 real business questions using CTEs, window functions (LAG, NTILE, RANK, rolling averages), correlated subqueries, and UNION analysis.',
+    tags: ['MySQL', 'SQL', 'Window Functions', 'CTEs', 'Time Series', 'Market Data', 'Sentiment Analysis'],
+    github: 'https://github.com/nevafrazier/market-sentiment-sql',
+    accent: '#34d399',
+    icon: '📈',
+  },
+  {
     title: 'Portfolio Database',
     tagline: 'Relational MySQL Schema & Analytics',
     description: 'Full relational MySQL database with normalized schema, foreign keys, indexes, views, stored procedures, a custom function, and triggers. Includes an advanced query showcase covering CTEs, window functions (RANK, LAG, NTILE, rolling SUM), correlated subqueries, and CASE-based traffic analysis.',
