@@ -21,15 +21,6 @@ const projects = [
     icon: '📈',
   },
   {
-    title: 'Portfolio Database',
-    tagline: 'Relational MySQL Schema & Analytics',
-    description: 'Full relational MySQL database with normalized schema, foreign keys, indexes, views, stored procedures, a custom function, and triggers. Includes an advanced query showcase covering CTEs, window functions (RANK, LAG, NTILE, rolling SUM), correlated subqueries, and CASE-based traffic analysis.',
-    tags: ['MySQL', 'SQL', 'Stored Procedures', 'Window Functions', 'CTEs', 'Database Design'],
-    github: 'https://github.com/nevafrazier/portfolio-site-db',
-    accent: '#34d399',
-    icon: '🗄️',
-  },
-  {
     title: 'Shipping Status Agent',
     tagline: 'AI-Powered Automation Tool',
     description: 'Python/Playwright automation agent built for daily operations at Willow Health. Autonomously retrieves FedEx tracking links, populates shipment statuses, and calculates days-in-transit across Excel and Google Sheets — eliminating a fully manual workflow and saving 35 minutes per day.',
