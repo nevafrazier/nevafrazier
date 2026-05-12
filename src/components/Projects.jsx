@@ -21,6 +21,16 @@ const projects = [
     icon: '📈',
   },
   {
+    title: "Neva's Agent",
+    tagline: 'Personal AI Assistant',
+    description: 'A full-stack personal AI agent with a React frontend and Python backend. Streams responses in real time via Server-Sent Events, runs an agentic tool-use loop, and controls a real browser via Playwright. Features: persistent memory across sessions, Gmail email with preview-before-send, Amazon cart automation, web search, Python execution, file system access, and Mac app control.',
+    tags: ['React', 'FastAPI', 'Python', 'Playwright', 'Groq', 'SSE', 'Browser Automation'],
+    github: 'https://github.com/nevafrazier/personal-agent',
+    building: true,
+    accent: '#34d399',
+    icon: '🤖',
+  },
+  {
     title: 'Shipping Status Agent',
     tagline: 'AI-Powered Automation Tool',
     description: 'Python/Playwright automation agent built for daily operations at Willow Health. Autonomously retrieves FedEx tracking links, populates shipment statuses, and calculates days-in-transit across Excel and Google Sheets — eliminating a fully manual workflow and saving 35 minutes per day.',
@@ -49,6 +59,12 @@ export default function Projects() {
               <div className="flex items-start justify-between mb-4">
                 <div className="text-4xl">{p.icon}</div>
                 <div className="flex items-center gap-3">
+                  {p.building && (
+                    <span className="text-xs px-3 py-1 rounded-full font-semibold border"
+                      style={{ borderColor: '#f59e0b50', background: '#f59e0b10', color: '#fcd34d' }}>
+                      Actively Building
+                    </span>
+                  )}
                   {p.live && (
                     <a href={p.live} target="_blank" rel="noreferrer"
                       className="text-xs px-3 py-1 rounded-full font-semibold border transition-all duration-200 hover:bg-emerald-500/10"
