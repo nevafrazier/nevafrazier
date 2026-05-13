@@ -73,8 +73,12 @@ export default function Projects() {
                     </a>
                   )}
                   <a href={p.github} target="_blank" rel="noreferrer"
-                    className="text-slate-500 hover:text-white transition-colors">
+                    className="flex items-center gap-1.5 text-xs px-3 py-1 rounded-full font-semibold border transition-all duration-200"
+                    style={{ borderColor: '#2a4a38', color: '#94a3b8' }}
+                    onMouseEnter={e => { e.currentTarget.style.borderColor = '#475569'; e.currentTarget.style.color = '#f1f5f9' }}
+                    onMouseLeave={e => { e.currentTarget.style.borderColor = '#2a4a38'; e.currentTarget.style.color = '#94a3b8' }}>
                     <GitHubIcon />
+                    Code
                   </a>
                 </div>
               </div>
