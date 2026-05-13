@@ -76,6 +76,23 @@ Python automation tool that scrapes FedEx tracking pages and auto-fills a daily 
 
 ---
 
+### Personal AI Agent — Local Assistant
+
+Full-stack AI assistant built from scratch with a React chat interface and a FastAPI backend. Connects to a language model via the Groq API and executes 22 real tools — not simulated responses. Responses stream token-by-token to the UI via SSE.
+
+- **Memory** — saves facts across sessions; injected into every conversation automatically
+- **Email** — drafts via Gmail SMTP with a preview/confirm card before sending
+- **Shopping** — Playwright-driven browser automation that logs into Amazon and adds items to cart
+- **Code execution** — runs arbitrary Python in a subprocess and returns the output
+- **Browser control** — open URLs, read pages, click, type, screenshot in a real Chromium window
+- **System tools** — open Mac apps, take screenshots, read/write files
+
+**Stack:** React · Vite · FastAPI · Python · Groq API · Playwright · Tailwind CSS
+
+> [View repo](https://github.com/nevafrazier/personal-agent)
+
+---
+
 ## Security
 
 ![Security Headers](https://img.shields.io/badge/Security%20Headers-A%20Rated-34d399?style=flat-square)
