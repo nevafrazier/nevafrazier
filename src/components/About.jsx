@@ -5,23 +5,24 @@ export default function About() {
         <div className="flex-1">
           <p className="text-xs font-semibold uppercase tracking-widest mb-3" style={{ color: '#34d399' }}>About Me</p>
           <h2 className="text-3xl md:text-4xl font-black text-white mb-6 leading-tight">
-            Data-driven builder with a<br />
-            <span style={{ color: '#34d399' }}>cybersecurity mindset</span>
+            Data-driven analyst with a<br />
+            <span style={{ color: '#34d399' }}>cybersecurity concentration</span>
           </h2>
           <p className="text-slate-400 leading-relaxed mb-4">
-            I'm a Computer Information Systems and Cybersecurity graduate from Appalachian State University.
-            I specialize in turning messy data into clean insights — and building
-            AI tools that automate the work in between.
+            I'm a Computer Information Systems graduate from Appalachian State University
+            with hands-on experience in operations reporting, process improvement, and
+            cross-functional data analysis.
           </p>
           <p className="text-slate-400 leading-relaxed mb-6">
-            Currently a Data Analytics Intern at Willow Health Services, where I've built dashboards,
-            automated reporting pipelines, and developed an AI agent that saves the team 35 minutes
-            every day. My Business Administration background also gives me experience in marketing
-            operations, cross-team communication, and presenting data to non-technical stakeholders.
+            Currently an Operational Data Analytics Intern at Willow Health Services, where I own
+            recurring stakeholder reports, built dashboards leadership checks daily, and designed
+            an automation solution that saved the team 35+ minutes every day. When I spotted
+            fulfillment trends no one had flagged, I surfaced them — leading to the escalation
+            of 500+ delayed packages across the operations team.
           </p>
           <div className="flex flex-wrap gap-3 items-center">
             <div className="flex flex-wrap gap-2">
-              {['Python', 'SQL', 'AI Agents', 'Data Analytics', 'Cybersecurity', 'Marketing Ops'].map(tag => (
+              {['Operations Reporting', 'Process Improvement', 'Data Analytics', 'Cybersecurity', 'Stakeholder Communication', 'Excel Advanced'].map(tag => (
                 <span key={tag} className="text-xs px-3 py-1.5 rounded-full border font-medium"
                   style={{ borderColor: '#34d39930', background: '#34d39910', color: '#a7f3d0' }}>
                   {tag}

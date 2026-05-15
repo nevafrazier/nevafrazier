@@ -32,11 +32,20 @@ const projects = [
   {
     title: 'Shipping Status Agent',
     tagline: 'AI-Powered Automation Tool',
-    description: 'Python/Playwright automation agent built for daily operations at Willow Health. Autonomously retrieves FedEx tracking links, populates shipment statuses, and calculates days-in-transit across Excel and Google Sheets — eliminating a fully manual workflow and saving 35 minutes per day.',
+    description: 'Python/Playwright automation agent built for daily operations at Willow Health. Autonomously retrieves FedEx tracking links, populates shipment statuses, and calculates days-in-transit across Excel and Google Sheets — eliminating a fully manual workflow and saving 45 minutes per day.',
     tags: ['Python', 'Playwright', 'Google Sheets API', 'Excel', 'Automation'],
     github: 'https://github.com/nevafrazier/shipping-status-agent',
     accent: '#10b981',
     icon: '📦',
+  },
+  {
+    title: 'Order Counter',
+    tagline: 'Automated Cohort Reporting Agent',
+    description: 'Automation tool built for weekly operations at Willow Health. Auto-detects the latest Excel shipping report, scans all weekly cohort tabs, and generates a formatted Cohorts summary with order counts, delivery rates, and percentages — eliminating manual filtering and saving 25 minutes per day.',
+    tags: ['Python', 'pandas', 'openpyxl', 'Excel', 'Automation', 'Reporting'],
+    github: 'https://github.com/nevafrazier/cohort-counter',
+    accent: '#10b981',
+    icon: '🗂️',
   },
 ]
 

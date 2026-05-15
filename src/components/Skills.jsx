@@ -3,7 +3,7 @@ const groups = [
     icon: '🤖',
     title: 'AI & Agentic Development',
     color: '#34d399',
-    skills: ['Claude (Anthropic)', 'ChatGPT', 'Gemini', 'OpenClaw', 'Prompt Engineering', 'AI Automation'],
+    skills: ['Claude (Anthropic)', 'ChatGPT', 'Gemini', 'Prompt Engineering', 'AI Automation', 'Agentic Workflows'],
   },
   {
     icon: '💻',
@@ -12,16 +12,16 @@ const groups = [
     skills: ['Python', 'JavaScript', 'React', 'SQL', 'MySQL', 'HTML/CSS', 'Excel (Advanced)', 'Google Sheets'],
   },
   {
-    icon: '🔒',
-    title: 'Networking & Cybersecurity',
+    icon: '📊',
+    title: 'Analytics & Reporting',
     color: '#059669',
-    skills: ['Wireshark', 'Cisco Packet Tracer', 'Linux', 'Cybersecurity Fundamentals', 'Network Analysis'],
+    skills: ['Mixpanel', 'Metabase', 'Tableau', 'Airtable', 'HubSpot', 'Google Workspace', 'Microsoft Office Suite'],
   },
   {
-    icon: '📊',
-    title: 'Tools & Platforms',
+    icon: '🔒',
+    title: 'Networking & Cybersecurity',
     color: '#065f46',
-    skills: ['FastAPI', 'Vercel', 'Railway', 'Mixpanel', 'Metabase', 'Airtable', 'Tableau', 'Google Cloud'],
+    skills: ['Wireshark', 'Cisco Packet Tracer', 'Linux', 'Cybersecurity Fundamentals', 'Network Analysis'],
   },
 ]
 
@@ -30,7 +30,7 @@ export default function Skills() {
     <section id="skills" className="py-24 border-t border-slate-800/40" style={{ background: '#0b1510' }}>
       <div className="max-w-6xl mx-auto px-6">
         <p className="text-xs font-semibold uppercase tracking-widest mb-3 text-center" style={{ color: '#34d399' }}>What I Work With</p>
-        <h2 className="text-3xl md:text-4xl font-black text-white text-center mb-14">Technical Skills</h2>
+        <h2 className="text-3xl md:text-4xl font-black text-white text-center mb-14">Skills & Tools</h2>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 mb-5">
           {groups.map(g => (
@@ -61,8 +61,8 @@ export default function Skills() {
             </div>
             <div className="w-px h-5 bg-slate-700 hidden sm:block shrink-0" />
             <div className="flex flex-wrap gap-1.5">
-              {['Inbound Marketing', 'HubSpot CRM', 'Marketing Analytics', 'Operations Reporting',
-                'Campaign Asset Management', 'Cross-Team Communication', 'Stakeholder Presentations'].map(s => (
+              {['Stakeholder Reporting', 'Cross-functional Collaboration', 'Inbound Marketing', 'HubSpot CRM',
+                'Campaign Asset Management', 'Data-Driven Decision Making', 'Executive Presentations'].map(s => (
                 <span key={s} className="text-xs px-2.5 py-1 rounded-full border font-medium"
                   style={{ borderColor: '#34d39930', background: '#34d39910', color: '#a7f3d0' }}>
                   {s}
