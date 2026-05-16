@@ -62,8 +62,9 @@ export default function Hero() {
 
           <p className="fade-up delay-3 text-slate-400 text-base md:text-lg leading-relaxed mb-8 max-w-lg">
             CIS + Cybersecurity graduate from App State. I turn data into decisions — building
-            dashboards, surfacing operational trends, and eliminating manual workflows. Strong
-            background in reporting, process improvement, and communicating insights to non-technical stakeholders.
+            dashboards, surfacing operational trends, and shipping AI automation tools that save
+            my team 70 minutes every day. Strong background in reporting, process improvement,
+            and communicating insights to non-technical stakeholders.
           </p>
 
           <div className="fade-up delay-4 flex flex-wrap gap-3">
