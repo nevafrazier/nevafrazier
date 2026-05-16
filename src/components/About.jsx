@@ -13,12 +13,16 @@ export default function About() {
             with hands-on experience in operations reporting, process improvement, and
             cross-functional data analysis.
           </p>
-          <p className="text-slate-400 leading-relaxed mb-6">
+          <p className="text-slate-400 leading-relaxed mb-4">
             Currently an Operational Data Analytics Intern at Willow Health Services, where I own
             recurring stakeholder reports, built dashboards leadership checks daily, and designed
-            an automation solution that saved the team 35+ minutes every day. When I spotted
+            an automation solution that saved the team 45 minutes every day. When I spotted
             fulfillment trends no one had flagged, I surfaced them — leading to the escalation
             of 500+ delayed packages across the operations team.
+          </p>
+          <p className="text-slate-400 leading-relaxed mb-6">
+            I also build AI automation tools — I have shipped two agents at my current internship
+            that together save the team 70 minutes every day.
           </p>
           <div className="flex flex-wrap gap-3 items-center">
             <div className="flex flex-wrap gap-2">
