@@ -12,6 +12,15 @@ const projects = [
     icon: '📡',
   },
   {
+    title: 'Shipping Operations Dashboard',
+    tagline: 'Tableau Public — Operations Analytics',
+    description: 'Interactive Tableau dashboard built from real shipping data. Four charts covering weekly order volume by status, delays by carrier, on-time rate by product category, and a heat map showing where carrier and product delays intersect. Built to surface operational trends and support data-driven decisions.',
+    tags: ['Tableau', 'Data Visualization', 'Dashboard Design', 'Operations Analytics'],
+    live: 'https://public.tableau.com/views/ShippingOperationsDashboard/Dashboard1',
+    accent: '#34d399',
+    icon: '📊',
+  },
+  {
     title: 'Market Sentiment Analysis',
     tagline: 'SQL Analytics — Stocks, Sentiment & Cities',
     description: 'SQL analytics project built around the same domain as Viglore. Tracks stock prices, VADER-style sentiment scores, and news coverage across 22 companies and 25 cities over 2,600+ rows of time series data. Answers 12 real business questions using CTEs, window functions (LAG, NTILE, RANK, rolling averages), correlated subqueries, and UNION analysis.',
@@ -80,14 +89,16 @@ export default function Projects() {
                       Live →
                     </a>
                   )}
-                  <a href={p.github} target="_blank" rel="noreferrer"
-                    className="flex items-center gap-1.5 text-xs px-3 py-1 rounded-full font-semibold border transition-all duration-200"
-                    style={{ borderColor: '#2a4a38', color: '#94a3b8' }}
-                    onMouseEnter={e => { e.currentTarget.style.borderColor = '#475569'; e.currentTarget.style.color = '#f1f5f9' }}
-                    onMouseLeave={e => { e.currentTarget.style.borderColor = '#2a4a38'; e.currentTarget.style.color = '#94a3b8' }}>
-                    <GitHubIcon />
-                    Code
-                  </a>
+                  {p.github && (
+                    <a href={p.github} target="_blank" rel="noreferrer"
+                      className="flex items-center gap-1.5 text-xs px-3 py-1 rounded-full font-semibold border transition-all duration-200"
+                      style={{ borderColor: '#2a4a38', color: '#94a3b8' }}
+                      onMouseEnter={e => { e.currentTarget.style.borderColor = '#475569'; e.currentTarget.style.color = '#f1f5f9' }}
+                      onMouseLeave={e => { e.currentTarget.style.borderColor = '#2a4a38'; e.currentTarget.style.color = '#94a3b8' }}>
+                      <GitHubIcon />
+                      Code
+                    </a>
+                  )}
                 </div>
               </div>
 
