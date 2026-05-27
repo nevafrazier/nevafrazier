@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import GitHubIcon from './GitHubIcon'
 
 const titles = [
-  'Data Analytics Intern',
+  'Data Analytics Analyst',
   'AI & Automation Builder',
   'CIS + Cybersecurity Graduate',
   'Marketing & Operations Analyst',
@@ -91,7 +91,7 @@ export default function Hero() {
               style={{ borderColor: '#334155', color: '#94a3b8' }}>
               <GitHubIcon />
             </a>
-            <a href="https://linkedin.com/in/nevafrazier" target="_blank" rel="noreferrer"
+            <a href="https://linkedin.com/in/neva-f-778b4b411/" target="_blank" rel="noreferrer"
               className="px-4 py-3 rounded-xl border transition-all duration-200 hover:bg-slate-800"
               style={{ borderColor: '#334155', color: '#94a3b8' }}>
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">

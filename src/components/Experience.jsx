@@ -2,11 +2,24 @@ const jobs = [
   {
     company: 'Willow Health Services Inc.',
     url: 'https://startwillow.com',
-    role: 'Operational Data Analytics Intern',
-    period: 'Jan 2026 – Present',
+    role: 'Operational Data Analytics Analyst · Part-Time',
+    period: 'May 2026 – Present',
     type: 'Remote',
     accent: '#34d399',
     badge: 'Current',
+    bullets: [
+      'Continued in an expanded part-time capacity following internship, maintaining ownership of reporting infrastructure, dashboards, and automation tools built during initial tenure.',
+      'Sustained daily operational reporting across stakeholder teams, ensuring consistent data visibility for leadership decision-making.',
+    ],
+  },
+  {
+    company: 'Willow Health Services Inc.',
+    url: 'https://startwillow.com',
+    role: 'Operational Data Analytics Intern',
+    period: 'Jan 2026 – May 2026',
+    type: 'Remote',
+    accent: '#10b981',
+    badge: null,
     bullets: [
       'Identified and eliminated a fully manual daily tracking workflow, designing an automation solution that saved the operations team 45 minutes per day and reduced human error.',
       'Built an automated order status reporting tool that processes weekly Excel shipping reports across multiple cohorts, auto-generating a formatted summary with delivery rates and percentages — saving 25 minutes per day.',
