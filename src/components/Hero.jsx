@@ -2,10 +2,10 @@ import { useEffect, useState } from 'react'
 import GitHubIcon from './GitHubIcon'
 
 const titles = [
-  'Data Analytics Analyst',
+  'Product Analyst',
   'AI & Automation Builder',
   'CIS + Cybersecurity Graduate',
-  'Marketing & Operations Analyst',
+  'Digital Product Developer',
 ]
 
 export default function Hero() {
@@ -61,11 +61,11 @@ export default function Hero() {
           </div>
 
           <p className="fade-up delay-3 text-slate-400 text-base md:text-lg leading-relaxed mb-8 max-w-lg">
-            CIS + Cybersecurity graduate from App State. Currently a Part-Time Operational Data
-            Analytics Analyst at a healthcare startup — building dashboards used daily by
-            leadership, surfacing fulfillment trends that drive decisions, and shipping AI
-            automation tools that save the team 70 minutes every day. Proficient in Excel, SQL,
-            Mixpanel, Metabase, Airtable, HubSpot, and Google Sheets.
+            CIS + Cybersecurity graduate from App State. Product analyst with hands-on experience
+            in digital product development, requirements gathering, and KPI monitoring. Currently
+            supporting a healthcare startup owning reporting tools used daily by leadership and
+            shipping AI automation that saves the team 70 minutes every day. Also the solo builder
+            behind Viglore — a live financial market intelligence platform.
           </p>
 
           <div className="fade-up delay-4 flex flex-wrap gap-3">

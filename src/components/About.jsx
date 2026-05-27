@@ -5,29 +5,29 @@ export default function About() {
         <div className="flex-1">
           <p className="text-xs font-semibold uppercase tracking-widest mb-3" style={{ color: '#34d399' }}>About Me</p>
           <h2 className="text-3xl md:text-4xl font-black text-white mb-6 leading-tight">
-            Data-driven analyst with a<br />
-            <span style={{ color: '#34d399' }}>cybersecurity concentration</span>
+            Product analyst with a<br />
+            <span style={{ color: '#34d399' }}>digital product mindset</span>
           </h2>
           <p className="text-slate-400 leading-relaxed mb-4">
             I'm a Computer Information Systems graduate from Appalachian State University
-            with hands-on experience in operations reporting, process improvement, and
-            cross-functional data analysis.
+            with hands-on experience in digital product development, requirements gathering,
+            KPI monitoring, and cross-functional delivery.
           </p>
           <p className="text-slate-400 leading-relaxed mb-4">
-            Currently a Part-Time Operational Data Analytics Analyst at Willow Health Services,
-            where I own recurring stakeholder reports, built dashboards leadership checks daily,
-            and designed automation solutions that save the team 70 minutes every day. When I
-            spotted fulfillment trends no one had flagged, I surfaced them — leading to the
-            escalation of 500+ delayed packages across the operations team.
+            Currently a Part-Time Product Analyst at Willow Health Services, where I own
+            product reporting tools used daily by leadership, define requirements for automation
+            solutions, and monitor operational KPIs and SLAs. I independently designed and
+            launched Viglore — a live financial market intelligence platform — managing the full
+            product lifecycle from requirements through deployment and ongoing maintenance.
           </p>
           <p className="text-slate-400 leading-relaxed mb-6">
-            Proficient in Excel, SQL, Mixpanel, Metabase, Airtable, HubSpot, and Google Sheets.
-            Proven ability to translate raw data into clear, actionable insights for non-technical
-            audiences.
+            Proficient in Jira, Excel, SQL, Mixpanel, Metabase, Airtable, HubSpot, and Google Sheets.
+            Proven ability to translate technically complex concepts into clear, business-friendly
+            language for non-technical stakeholders.
           </p>
           <div className="flex flex-wrap gap-3 items-center">
             <div className="flex flex-wrap gap-2">
-              {['Operations Reporting', 'Process Improvement', 'Data Analytics', 'Cybersecurity', 'Stakeholder Communication', 'Excel Advanced'].map(tag => (
+              {['Product Development', 'Requirements Gathering', 'KPI & SLA Monitoring', 'Agile / SDLC', 'Stakeholder Communication', 'Process Improvement'].map(tag => (
                 <span key={tag} className="text-xs px-3 py-1.5 rounded-full border font-medium"
                   style={{ borderColor: '#34d39930', background: '#34d39910', color: '#a7f3d0' }}>
                   {tag}
@@ -53,7 +53,7 @@ export default function About() {
             <div className="text-white font-black text-lg mb-1">App State</div>
             <div className="text-emerald-400 text-sm font-semibold mb-3">CIS – Cybersecurity</div>
             <div className="border-t border-slate-800 pt-3 mt-3">
-              <div className="text-slate-500 text-xs mb-1">Graduating</div>
+              <div className="text-slate-500 text-xs mb-1">Graduated</div>
               <div className="text-white font-bold">May 2026</div>
             </div>
             <div className="border-t border-slate-800 pt-3 mt-3">
