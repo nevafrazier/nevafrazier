@@ -61,10 +61,11 @@ export default function Hero() {
           </div>
 
           <p className="fade-up delay-3 text-slate-400 text-base md:text-lg leading-relaxed mb-8 max-w-lg">
-            CIS + Cybersecurity graduate from App State. I turn data into decisions — building
-            dashboards, surfacing operational trends, and shipping AI automation tools that save
-            my team 70 minutes every day. Strong background in reporting, process improvement,
-            and communicating insights to non-technical stakeholders.
+            CIS + Cybersecurity graduate from App State. Currently a Part-Time Operational Data
+            Analytics Analyst at a healthcare startup — building dashboards used daily by
+            leadership, surfacing fulfillment trends that drive decisions, and shipping AI
+            automation tools that save the team 70 minutes every day. Proficient in Excel, SQL,
+            Mixpanel, Metabase, Airtable, HubSpot, and Google Sheets.
           </p>
 
           <div className="fade-up delay-4 flex flex-wrap gap-3">

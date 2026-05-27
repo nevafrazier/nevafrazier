@@ -38,8 +38,7 @@ const jobs = [
     accent: '#10b981',
     badge: null,
     bullets: [
-      'Delivered consistent customer service across hundreds of daily interactions in a high-volume environment.',
-      'Trained new team members on drink preparation and POS systems — building communication and leadership skills.',
+      'Delivered consistent customer service in a high-volume environment and trained new team members on drink preparation and POS system usage.',
     ],
   },
   {

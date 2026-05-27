@@ -1,17 +1,13 @@
 const courses = [
-  'Programming Software Solutions',
-  'Systems Analysis & Design',
-  'Network & IT Infrastructures',
   'Database Management',
-  'Audit & Cybersecurity Analytics',
-  'Managing Security',
-  'Global Blockchain & AI Applications',
+  'Systems Analysis & Design',
   'Information Systems Project',
+  'Audit & Cybersecurity Analytics',
+  'Global Blockchain & AI Applications',
   'Global IS Ethics & Privacy',
-  'Principles of Marketing',
-  'Production & Operations Management',
-  'Business Capstone Experience',
-  'Strategic Management',
+  'Network & IT Infrastructures',
+  'Managing Security',
+  'Programming Software Solutions',
 ]
 
 export default function Education() {
@@ -31,8 +27,8 @@ export default function Education() {
               <div className="flex flex-wrap items-start justify-between gap-3">
                 <div>
                   <h3 className="text-white font-black text-xl">Appalachian State University</h3>
-                  <p className="text-emerald-400 font-semibold mt-0.5">Bachelor of Science in Business Administration</p>
-                  <p className="text-slate-400 text-sm mt-1">Major: Computer Information Systems – Cybersecurity</p>
+                  <p className="text-emerald-400 font-semibold mt-0.5">Bachelor of Science — Computer Information Systems (CIS)</p>
+                  <p className="text-slate-400 text-sm mt-1">Cybersecurity Concentration · Major GPA: 3.67</p>
                 </div>
                 <div className="text-right shrink-0">
                   <div className="text-slate-400 text-sm font-medium">Boone, NC</div>
