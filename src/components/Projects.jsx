@@ -14,7 +14,7 @@ const projects = [
   {
     title: 'Shipping Operations Dashboard',
     tagline: 'Tableau Public — Operations Analytics',
-    description: 'Interactive Tableau dashboard built from real shipping data. Four charts covering weekly order volume by status, delays by carrier, on-time rate by product category, and a heat map showing where carrier and product delays intersect. Built to surface operational trends and support data-driven decisions.',
+    description: 'Interactive Tableau dashboard built from shipping data. Four charts covering weekly order volume by status, delays by carrier, on-time rate by product category, and a heat map showing where carrier and product delays intersect. Built to surface operational trends and support data-driven decisions.',
     tags: ['Tableau', 'Data Visualization', 'Dashboard Design', 'Operations Analytics'],
     live: 'https://public.tableau.com/views/ShippingOperationsDashboard/Dashboard1',
     accent: '#34d399',
