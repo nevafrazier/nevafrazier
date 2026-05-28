@@ -5,21 +5,21 @@ export default function About() {
         <div className="flex-1">
           <p className="text-xs font-semibold uppercase tracking-widest mb-3" style={{ color: '#34d399' }}>About Me</p>
           <h2 className="text-3xl md:text-4xl font-black text-white mb-6 leading-tight">
-            Data-driven analyst with a<br />
-            <span style={{ color: '#34d399' }}>cybersecurity concentration</span>
+            Product analyst with a<br />
+            <span style={{ color: '#34d399' }}>digital product mindset</span>
           </h2>
           <p className="text-slate-400 leading-relaxed mb-4">
             I'm a Computer Information Systems graduate from Appalachian State University
-            with hands-on experience in operations reporting, process improvement, and
-            cross-functional data analysis.
+            with hands-on experience in digital product development, requirements gathering,
+            KPI monitoring, and cross-functional delivery.
           </p>
           <p className="text-slate-400 leading-relaxed mb-4">
             Currently a Part-Time Operational Data Analytics Analyst at Willow Health Services,
-            where I own recurring stakeholder reports, built dashboards leadership checks daily,
-            and designed automation solutions that save the team 70 minutes every day. I
-            independently designed and launched Viglore — a live financial market intelligence
-            platform — managing the full product lifecycle from requirements through deployment
-            and ongoing maintenance.
+            where I own product reporting tools used daily by leadership, define requirements
+            for automation solutions, and monitor operational KPIs and SLAs. I independently
+            designed and launched Viglore, a live financial market intelligence platform,
+            managing the full product lifecycle from requirements through deployment and
+            ongoing maintenance.
           </p>
           <p className="text-slate-400 leading-relaxed mb-6">
             Proficient in Jira, Excel, SQL, Mixpanel, Metabase, Airtable, HubSpot, and Google Sheets.
