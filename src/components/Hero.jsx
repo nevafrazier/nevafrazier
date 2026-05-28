@@ -62,10 +62,10 @@ export default function Hero() {
 
           <p className="fade-up delay-3 text-slate-400 text-base md:text-lg leading-relaxed mb-8 max-w-lg">
             CIS + Cybersecurity graduate from App State. Currently a Part-Time Operational Data
-            Analytics Analyst at a healthcare startup — owning reporting tools used daily by
+            Analytics Analyst at a healthcare startup, owning reporting tools used daily by
             leadership, surfacing fulfillment trends that drive decisions, and shipping AI
             automation that saves the team 70 minutes every day. Also the solo builder behind
-            Viglore — a live financial market intelligence platform.
+            Viglore, a live financial market intelligence platform.
           </p>
 
           <div className="fade-up delay-4 flex flex-wrap gap-3">
